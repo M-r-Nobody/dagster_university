@@ -2,12 +2,6 @@
 
 This is a [Dagster](https://dagster.io/) project made to accompany Dagster University coursework. The branches of this repository contain projects for different Dagster University courses:
 
-| Branch name | Description |
-|-------------|-------------|
-| `main`       | [Dagster Essentials](https://courses.dagster.io/courses/dagster-essentials) finished project |
-| `module/dagster-and-dbt` | [Dagster + dbt](https://courses.dagster.io/courses/dagster-dbt) finished project |
-| `module/dagster-and-dbt-starter` | Starter project for [Dagster + dbt](https://courses.dagster.io/courses/dagster-dbt) |
-
 ## Getting started
 
 First, install your Dagster code location as a Python package. By using the --editable flag, pip will install your Python package in ["editable mode"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) so that as you develop, local code changes will automatically apply.
@@ -26,9 +20,7 @@ dagster dev
 
 Open http://localhost:3000 with your browser to see the project.
 
-
 ## Development
-
 
 ### Adding new Python dependencies
 
@@ -52,4 +44,4 @@ Once your Dagster Daemon is running, you can start turning on schedules and sens
 
 The easiest way to deploy your Dagster project is to use Dagster Cloud.
 
-Check out the [Dagster Cloud Documentation](https://docs.dagster.cloud) to learn more. 
+Check out the [Dagster Cloud Documentation](https://docs.dagster.cloud) to learn more.
